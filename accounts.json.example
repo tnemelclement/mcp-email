@@ -1,0 +1,28 @@
+{
+  "default": "perso",
+  "accounts": {
+    "perso": {
+      "imap_host": "imap.gmail.com",
+      "imap_port": 993,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "user": "vous@gmail.com",
+      "from": "Votre Nom <vous@gmail.com>"
+    },
+    "pro": {
+      "imap_host": "mail.exemple.com",
+      "imap_port": 993,
+      "smtp_host": "mail.exemple.com",
+      "smtp_port": 587,
+      "user": "vous@exemple.com",
+      "from": "Votre Nom <vous@exemple.com>"
+    },
+    "autre": {
+      "imap_host": "imap.mail.yahoo.com",
+      "imap_port": 993,
+      "smtp_host": "smtp.mail.yahoo.com",
+      "smtp_port": 465,
+      "user": "vous@yahoo.fr"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+# Configuration locale : contient vos adresses et vos serveurs.
+# Copiez accounts.json.example et adaptez-le.
+accounts.json
+
+# Mots de passe d'application. Jamais versionné.
+.env
+
+.DS_Store
+*.log

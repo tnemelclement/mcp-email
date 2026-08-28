@@ -1,0 +1,38 @@
+{
+  "name": "mcp-email",
+  "version": "1.0.0",
+  "description": "Serveur MCP pour lire, envoyer et classer des emails sur plusieurs boîtes IMAP/SMTP",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^17.3.1",
+    "imapflow": "^1.0.171",
+    "mailparser": "^3.7.2",
+    "nodemailer": "^6.10.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.5",
+    "@types/nodemailer": "^6.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email",
+    "imap",
+    "smtp",
+    "claude"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnemelclement/mcp-email.git"
+  }
+}
